@@ -33,7 +33,7 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         btnCreateQuestion.setOnClickListener{
-            findNavController().navigate(R.id.action_homeFragment_to_quizFragment2)
+            findNavController().navigate(R.id.action_homeFragment_to_createQuizFragment2)
         }
         btnStartQuiz.setOnClickListener{
             if(viewModel.isQuestionCreated())
